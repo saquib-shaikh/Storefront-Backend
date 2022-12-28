@@ -1,0 +1,26 @@
+{
+  "spec_dir": "dist/tests",
+  "spec_files": [
+    "**/modelTest/userSpec.js",
+        "**/modelTest/productSpec.js",
+        "**/modelTest/orderSpec.js",
+        "**/*[sS]pec.js",
+        "**/routesTest/userSpec.js",
+        "**/routesTest/productSpec.js",
+        "**/Test/orderSpec.js",
+        "**/*[sS]pec.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "reporters": [
+    {
+      "name": "jasmine-spec-reporter#SpecReporter",
+      "options": {
+        "displayStacktrace": "all"
+      }
+    }
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
